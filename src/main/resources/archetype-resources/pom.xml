@@ -141,5 +141,5 @@
         </repository>
     </repositories>
 
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 </project>

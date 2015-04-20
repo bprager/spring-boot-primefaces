@@ -30,7 +30,7 @@
 
   <description>Spring Boot PrimeFaces </description>
 
-  <url>http://projects.spring.io/spring-boot/web/</url>
+  <url>https://github.com/bprager/spring-boot-primefaces</url>
 
   <developers>
     <developer>
@@ -50,7 +50,4 @@
     </license>
   </licenses>
 
-  <scm>
-    <url>https://github.com/spring-projects/spring-boot/spring-boot-starter-parent/web</url>
-  </scm>
 </project>
