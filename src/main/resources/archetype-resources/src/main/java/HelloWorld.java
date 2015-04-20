@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @RequestScoped
 @Component
 public class HelloWorld {
-	private String sayHello = "Hello World!";
+	private String sayHello = "Hello, I am a Spring bean!";
 	private Logger log = LoggerFactory.getLogger(HelloWorld.class);
 
 	public String getSayHello() {
