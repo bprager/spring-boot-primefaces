@@ -28,7 +28,7 @@
         <!-- SPRING -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-${rootArtifactId}</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <!-- DEPENDENCIES FROM EMBEDDED TOMCAT -->
