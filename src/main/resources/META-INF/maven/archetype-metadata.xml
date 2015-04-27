@@ -12,6 +12,7 @@
     <fileSet filtered="true" encoding="UTF-8">
       <directory>src/main/webapp</directory>
       <includes>
+        <include>**/*.html</include>
         <include>**/*.xhtml</include>
         <include>**/*.xml</include>
       </includes>
@@ -30,12 +31,6 @@
       </includes>
     </fileSet>
     <fileSet filtered="true" encoding="UTF-8">
-      <directory>.gradle/2.3</directory>
-      <includes>
-        <include>**/*.properties</include>
-      </includes>
-    </fileSet>
-    <fileSet filtered="true" encoding="UTF-8">
       <directory>.settings</directory>
       <includes>
         <include>**/*.xml</include>
@@ -51,13 +46,6 @@
       <directory>build/libs</directory>
       <includes>
         <include>**/*.war</include>
-      </includes>
-    </fileSet>
-    <fileSet encoding="UTF-8">
-      <directory>.gradle/2.3</directory>
-      <includes>
-        <include>**/*.lock</include>
-        <include>**/*.bin</include>
       </includes>
     </fileSet>
     <fileSet encoding="UTF-8">
@@ -87,7 +75,6 @@
       <directory></directory>
       <includes>
         <include>.gitignore</include>
-        <include>build.gradle</include>
       </includes>
     </fileSet>
   </fileSets>
